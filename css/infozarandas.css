@@ -1,0 +1,207 @@
+@import url(whatsapp.css);
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #033249;
+	margin: 0;
+	font-family: monospace;
+}
+
+header{
+	width: 100%;
+	height: 53px;
+	background: #002e47;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+h1{
+	float: left;
+}
+header .contenedor{
+	display: table;
+	width: 100%;
+}
+#menu-bar{
+	display: none;
+}
+header label{
+	float: right;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+}
+.menu{
+
+	position: absolute;
+	top: 10;
+	left: 0;
+	width: 100%;
+	height: 80vh;
+	background: rgba(3,50,73,0.8);
+	transition: all 0.5s;
+	transform: translateX(-100%);
+	text-align: center;
+}
+.menu a{
+	display: block;
+	color: white;
+	height: 53px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom:1px solid rgba(4, 0, 73,1);
+	background:#002e47;
+	font-family: 'Jost', sans-serif;
+	font-size: 1.2em;
+}
+.menu a:hover{
+	background: #ff8038;
+	color:white;
+}
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+@media(min-width: 1024px){
+	.menu{
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+
+
+	}
+	.menu a{
+		border:none;
+	}
+	header label{
+		display: none;
+	}
+}	
+footer{
+	padding: 42px 0;
+	background-color: #fff;
+}
+footer .sociales{
+	text-align: center;
+	padding-bottom: 25px;
+	color:#4b4c4d;
+
+}
+footer .sociales a img{
+	font-size: 24px;
+	color:inherit;
+	
+	width: 40px;
+	height: 40px;
+	line-height: 28px;
+	display: inline-block;
+	text-align: center;
+	
+	margin: 0 8px;
+	opacity: 0.8;
+}
+footer .sociales img:hover{
+	opacity: 1;
+
+}
+footer ul{
+	margin-top:0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+
+}
+footer ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+footer .copy{
+	margin-top:15px;
+	text-align: center;
+	font-size: 25px;
+	color:#aaa;
+}
+.caja{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+
+
+}
+.cajahijo1{
+	display: flex;
+	flex-flow:  wrap row;
+	justify-content: space-around;
+	margin: 10px 20px;
+	padding: 50px 10px;
+	grid-gap: 30px;
+	min-width: 300px;
+	max-width: 800px;
+	border: 1px solid white;
+}
+.cajahijo1 .descrip{
+	min-width: 100px;
+	max-width: 500px;
+	min-height: 100px;
+	max-width: 500px;
+	max-height: 300px;
+	margin: 0 10px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+.cajahijo1 h2{
+	
+	font-family: 'Anton', sans-serif;
+}
+body h1{
+	text-align: center;
+	float: none;
+	margin-top: 60px;
+	font-size: 3em;
+	border-bottom: 4px double white;
+
+}
+.cajahijo1 img{
+     width: 100%;
+	max-width: 300px;
+	min-width: 150px;
+	border-radius: 50%;
+   min-height: 100px;
+}
+body{
+	padding:30px 30px;
+}
+ body  h2{
+	font-size: 1.5em;
+}
+p{
+	font-size: 1.5em;
+}
+@media(min-width: 480px){
+	.cajahijo1 	.descrip{
+		font-size: 0.8em;
+		
+	}
+	.cajahijo1 h1{
+		font-size: 1.6em;
+	}
+}
+@media(min-width: 1024px){
+	.cajahijo1 	.descrip{
+		font-size: 0.9em;
+		
+	}
+	.cajahijo1 h1{
+		font-size:2em;
+	}
+}

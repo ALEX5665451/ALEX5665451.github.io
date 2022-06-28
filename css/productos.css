@@ -1,0 +1,19 @@
+@import url(footer.css);
+@import url(mainproductos.css);
+@import url(whatsapp.css);
+@import url(menu.css);
+
+.contenedor  article a{
+	margin:0 10px;
+	color: white;
+	border-radius: 0%;
+	background: #033249;
+	font-size: 1.2em;
+	cursor: pointer;
+	text-decoration: none;
+}
+.contenedor article a:hover{
+	background: #ff8038;
+
+
+}
