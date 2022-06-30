@@ -1,0 +1,75 @@
+@import url(whatsapp.css);
+@import url(menu.css);
+@import url(footer.css);
+body{
+	background: #033249;
+}
+}
+.cajahijo{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+	max-width: 500px;
+	min-width: 400px;
+	min-height: 300px;
+	margin: 50px 10px;
+	background: white;
+	border-radius: 20%	;
+
+}
+main h1{
+	text-align: center;
+	float: none;
+	border-bottom: 4px solid #ff8038;
+	padding: 10px;
+	font-family: 'Titan One', cursive;
+	
+	
+
+}
+
+.cajapadre{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: center;
+	padding: 30px;
+	align-items: center;
+	border-bottom:6px solid  white;
+	font-family: 'Abel', sans-serif;
+	color: white;
+	font-size: 1.3em;
+	}
+.cajapadre ul{
+	padding: 50px;
+}	
+main{
+	margin-top: 50px;
+	padding: 50px;
+
+}
+
+@media(min-width: 400px){
+	.cajapadre p,h2{
+		font-size: 1.5em;
+		padding: 25px;
+	}
+	main h1{
+		font-size: 1em;
+		padding: 10px;
+		
+	}
+}
+@media(min-width: 1024px){
+	.cajapadre h1{
+		font-size: 1.5em;
+	}
+	main h1{
+		font-size: 2.5em;
+		padding: 10px;
+		
+	}
+}
+
+

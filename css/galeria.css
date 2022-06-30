@@ -1,6 +1,14 @@
+@import url(footer.css);
+
 @import url(whatsapp.css);
 @import url(menu.css);
-@import url(footer.css);
+.contenedor-flex{
+	display: flex;
+	background: #033249;
+}
+	
+
+
 .contenedor  article a{
 	margin:0 10px;
 	color: white;
@@ -15,13 +23,6 @@
 
 
 }
-.contenedor-flex{
-	display: flex;
-	background: #033249;
-	
-
-
-}
 .contenedor-flex .contenedor{
 	flex-wrap: wrap;
 	display: flex;
@@ -33,13 +34,13 @@
 
 }
 article {
-    background: #ff8038;
+    background: white;
     border-radius:50%;
 }
 .contenedor article img{
 	width: 100%;
 	height: 100%;
-	border-radius: 30%;
+	border-radius: 40%;
 	border: 6px solid white ;
 	max-width: 480px;
 	min-width: 250px;
@@ -71,8 +72,8 @@ article h3{
 }
 @media(min-width: 1024px){
 	.contenedor article h3:hover{
-		background: white;
-		color: #ff8038;
+		background:#ff8038;
+		color: white;
 	}
 	.contenedor  article a:hover{
 		color: #033249;
@@ -84,7 +85,7 @@ article h3{
 @media(max-width: 460px){
 	.contenedor article h3{
 		
-		color: white;
+		color: #033249;
 		font-size: 1.4em;
 	}
 	.contenedor  article a{

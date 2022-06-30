@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -59,7 +60,7 @@ header label{
 	border-bottom:1px solid rgba(4, 0, 73,1);
 	background:#002e47;
 	font-family: 'Jost', sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .menu a:hover{
 	background: #ff8038;

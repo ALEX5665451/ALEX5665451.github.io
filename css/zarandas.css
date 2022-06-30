@@ -1,0 +1,81 @@
+@import url(whatsapp.css);
+@import url(menu.css);
+@import url(footer.css);
+body{
+	background: #033249;
+}
+.caja{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+
+
+}
+.cajahijo1{
+	display: flex;
+	flex-flow:  wrap row;
+	justify-content: space-around;
+	margin: 10px 20px;
+	padding: 50px 10px;
+	grid-gap: 30px;
+	min-width: 300px;
+	max-width: 800px;
+	border: 1px solid white;
+}
+.cajahijo1 .descrip{
+	min-width: 100px;
+	max-width: 500px;
+	min-height: 100px;
+	max-width: 500px;
+	max-height: 300px;
+	margin: 0 10px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	color: white;
+
+}
+.cajahijo1 h2{
+	
+	font-family: 'Anton', sans-serif;
+	border-bottom: 4px solid #ff8038;
+}
+body h1{
+	text-align: center;
+	float: none;
+	margin-top: 60px;
+	font-size: 3em;
+	border-bottom: 4px double white;
+
+}
+.cajahijo1 img{
+     width: 100%;
+	max-width: 300px;
+	min-width: 100px;
+	border-radius: 50%;
+   min-height: 100px;
+}
+body{
+	padding:30px 30px;
+}
+ body  h2{
+	font-size: 1.8em;
+}
+
+@media(min-width: 1024px){
+	.cajahijo1 .descrip{
+		font-size: 1.5em;
+		
+	}
+	.cajahijo1 h1{
+		font-size:2em;
+	}
+}
+@media(max-width: 480px){
+	.cajahijo1 .descrip{
+		font-size: 0.8em;
+		
+	}
+	.cajahijo1 h1{
+		font-size: 1.6em;
+	}
+}

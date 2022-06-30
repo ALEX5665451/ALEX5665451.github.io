@@ -1,9 +1,6 @@
-@import url(footer.css);
-@import url(historia.css);
-@import url(quienessomosmain.css);
 @import url(whatsapp.css);
 @import url(menu.css);
-
+@import url(footer.css);
 *{
 	margin: 0;
 	padding: 0;
@@ -41,3 +38,335 @@ section	{
 
 
 }
+main{
+	background: #033249;
+}
+#mision{
+	background: #033249;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: wrap row;
+	color: #BDBDBD;
+
+
+}
+ #valores p{
+	border-bottom: 3px solid white;
+	border-radius: 10%;
+	color: ;
+	text-align: center;
+}
+
+#valores h2{
+	background: white;
+	border-radius: 10%;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+#mision h2{
+background: white;
+	border-radius: 60%;
+	color: black;
+}
+article{
+	line-height: 35px;
+}
+
+article p{
+	font-family: 'Teko', sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+}
+article h2{
+	font-size: 2.3em;
+	text-align: center;
+}
+
+#valores{
+	background: #033249;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#valores article{
+	margin-top: 50px;
+	max-width: 300px;
+	min-width: :150px;
+}
+#mision article{
+	margin-top: 20px;
+	
+	min-width: 150px;
+	max-width: 300px;
+	font-size: 0.8em;
+}
+
+
+#mision article  img{
+	margin-top: 50px;
+	
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid white;
+
+}
+#valores article img{
+	margin-top: 50px;
+	width: 450px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid white;
+	
+}
+main h2{
+	text-align: center;
+	padding: 10px;
+}
+@media(max-width:1024px){
+
+ #mision{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.5em;
+	flex-flow: wrap column;
+
+}
+#mision article img{
+	margin-top: 10px;
+	width: 400px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038;
+	
+}
+
+#valores{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+#valores article img{
+	margin-top: 10px;
+	width: 400px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038;
+	
+}
+}
+
+@media(max-width:768px){
+	 #mision{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+#valores{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+#mision article  img{
+	margin-top: 10px;
+	width: 300px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038;
+
+}
+#valores article img{
+	margin-top: 10px;
+	width: 400px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038;
+	
+}
+
+}
+@media(max-width:480px){
+  #mision{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+#valores{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+#mision article  img{
+	margin-top: 10px;
+	width: 300px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038	;
+
+}
+#valores article img{
+	margin-top: 10px;
+	width: 300px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038;
+	
+}
+
+
+}
+@media(max-width:320px){
+  #mision{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+#valores{
+	
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+
+}
+#mision article  img{
+	margin-top: 10px;
+	width: 300px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038	;
+
+}
+#valores article img{
+	margin-top: 10px;
+	width: 300px;
+	max-width: 350px;
+	min-width: 100px;
+	border-radius: 50%;
+	border:3px solid #ff8038;
+	
+}
+
+
+}
+
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+#banner .contenedor{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform:translateX(-50%) translateY(-50%);
+ 
+ }  
+ #banner h2 {
+    font-size: 28px;
+ }
+ 
+ #banner a{
+    width: 100px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding:7px;
+    margin-top:10px;
+    border: 3px solid black;
+ }
+ #banner a:hover{
+    background: rgba(244, 241, 0, 0.5);
+
+ }
+  @media(min-width: 300px) and (max-width: 479px){
+    #banner p{
+            font-family: 'Dancing Script', cursive;
+            font-size: 1em;
+            color: white  ;
+            text-align: center;
+
+
+    }
+    #banner a{
+        margin-top: 25px;
+    }
+ }
+ @media(min-width: 480px){
+    #banner p{
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.3em;
+            color: white  ;
+            text-align: center;
+
+
+    }
+    #banner a{
+        margin-top: 25px;
+    }
+ }
+ @media(min-width: 768px){
+    #banner p{
+        font-size: 1.8em;
+         color: white;
+ 
+        
+    }
+    #banner{
+        height: 400px;
+        overflow: hidden;
+
+    }
+    #banner img{
+        height: auto;
+        margin-top: -10px;
+    }
+ }
+ @media(min-width: 1024px){
+    #banner p{
+        font-size: 2.5em;
+        color: white;
+
+
+    }
+    #banner{
+        height: 500px;
+        overflow: hidden;
+
+    }
+    #banner img{
+        margin-top: -100px;
+    }
+ }

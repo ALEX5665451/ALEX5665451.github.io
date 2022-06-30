@@ -3,10 +3,10 @@
 <head>
 	<title>Formulario de Contacto</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+	<link rel="stylesheet" type="text/css" href="css/contactanos.css">
    <link rel="icon"  href="img/IND.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send/?phone=51939416163&text&app_absent=0&text=Hola!Quisiera%20mas%20informaci%C3%B3n" class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 </head>
@@ -22,18 +22,19 @@
      	   			      <a href="quienessomos.html">QUIENES SOMOS</a>
      	   			      <a href="servicios.html">SERVICIOS</a>
      	   			      <a href="productos.html">PRODUCTOS</a>
-     	   			      <a href="contactanos.html">CONTACTANOS</a>
+     	   			       <a href="galeria.html">GALERIA</a>
+                    <a href="contactanos.html" style="background: #ff8038">CONTACTANOS</a>
      	   			
      	   		      </nav>
      	   	   </div>
      	   </header>
 
-	       <form action="">
+	       <form action="enviar.php" method="post">
 	 	      <h2>CONTACTO</h2>
-	 	      <input type="text" name="Nombre" placeholder="Nombre">
-	 	      <input type="text" name="Correo" placeholder="Correo">
-	 	      <input type="text" name="Teléfono" placeholder="Teléfono">
-	 	      <textarea name="mensaje" placeholder="Escriba aqui su mensaje"> </textarea>
+	 	      <input type="text" name="nombre" placeholder="Nombre"required> 
+	 	      <input type="text" name="correo" placeholder="Correo"required>
+	 	      <input type="text" name="telefono" placeholder="Teléfono"required>
+	 	      <textarea name="mensaje" placeholder="Escriba aqui su mensaje"required></textarea>
 	 	      <input type="button" value="ENVIAR" id="boton">
 	       </form> 
 	        <footer>

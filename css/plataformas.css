@@ -1,0 +1,116 @@
+@import url(whatsapp.css);
+@import url(menu.css);
+@import url(footer.css);
+body{
+	background: #033249;
+}
+main{ 
+     background: #033249;
+	margin-top: 50px;
+	text-align: center;
+	padding: 30px 30px;
+	display: flex;
+	flex-flow: wrap column;
+	 align-items: center;
+
+}
+main  h1  {
+    text-align: center;
+    font-size: 3em;
+    border-bottom:  2px solid white ;
+    border-radius: 10px;
+
+
+}
+main h2,h3{
+	font-family: 'Bangers', cursive;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:7px solid white;
+}
+.cajapadre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 700px;
+	min-width: 100px;
+	border-right:  6px solid #ff8038;
+	border-left:  6px solid #ff8038;
+	padding: 0;
+	grid-gap: 30px;
+
+}
+.cajapadre h1{
+	font-family: 'Bangers', cursive;
+	color: white;
+}
+.cajapadre img{
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	min-width: 20px;
+	object-fit: cover;
+	border-radius: 40%;
+	border:6px solid white;
+}
+p{
+	color: white;
+}
+
+@media (min-width: 1200px){
+	.cajapadre h1{
+		font-size: 3em;
+
+	}
+	.cajapadre h2{
+		font-size: 2em;
+
+	}
+	.cajapadre p{
+		font-size: 1.7em;
+	}
+	.cajapadre h3{
+		font-size: 2em;
+
+	}
+}
+@media (min-width: 768px){
+	.cajapadre h1{
+		font-size: 2em;
+
+	}
+	.cajapadre h2{
+		font-size: 1.5em;
+
+	}
+	.cajapadre p{
+		font-size: 1.5em;
+		font-family: 'Lobster Two', cursive;
+	}
+	.cajapadre h3{
+		font-size: 1.5em;
+
+	}
+}
+@media (max-width: 768px){
+	.cajapadre h1{
+		font-size: 1.5em;
+
+	}
+	.cajapadre h2{
+		font-size: 1em;
+
+	}
+	.cajapadre p{
+		font-size: 1em;
+		font-family: 'Lobster Two', cursive;
+	}
+	.cajapadre h3{
+		font-size: 1em;
+
+	}
+}

@@ -1,3 +1,5 @@
+@import url(menu.css);
+@import url(footer.css);
 @import url(whatsapp.css);
 *{
 	box-sizing: border-box;
@@ -53,7 +55,7 @@ header label{
 	border-bottom:1px solid rgba(4, 0, 73,1);
 	background:#002e47;
 	font-family: 'Jost', sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .menu a:hover{
 	background: #ff8038;
@@ -139,15 +141,16 @@ footer .copy{
 	border: 4px solid #ff8038;
 	margin: 40px 40px;
 	max-width: 800px;
-	min-width: 300px;
+	min-width: 100px;
 
 }
 main{
 	display: flex;
 	flex-flow: wrap column;
 	margin-top: 100px;
-	align-items: ceneter;
-	
+	align-items: center;
+	min-width: 200px;
+	min-width: 100px;
 	align-items: center;
 }
 main h2,h1{
@@ -158,4 +161,20 @@ main h2,h1{
 .cajahijo ul li,p{
 	list-style: none;
 	font-family: 'Indie Flower', cursive;
+}
+@media(min-width: 1024px){
+	.cajahijo ul li,p{
+	font-size: 1.5em;
+}
+main h2,h1{
+	font-size: 2.5em;
+}
+}
+@media(max-width:450px){
+	.cajahijo ul li,p{
+	font-size: 0.7em;
+}
+main h2,h1{
+	font-size: 1em;
+}
 }

@@ -1,6 +1,7 @@
 footer{
 	padding: 42px 0;
 	background-color: #fff;
+	box-sizing: border-box;
 }
 footer .sociales{
 	text-align: center;
