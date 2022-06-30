@@ -45,8 +45,8 @@ article {
     border-radius: 30%;
     border: 6px solid white ;
     max-width: 490px;
-    min-width: 270px;
-    min-height: 280px;
+    min-width: 310px;
+    min-height: 300px;
     object-fit: cover;
    
     margin-top: 30px;
@@ -81,6 +81,14 @@ article h3{
         background: white;
         color: #ff8038;
     }
+    .contenedor article img{
+    
+    max-width: 490px;
+    min-width: 480px;
+    
+
+
+}
 
 }
 @media(max-width: 460px){

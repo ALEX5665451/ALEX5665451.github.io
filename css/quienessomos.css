@@ -48,6 +48,7 @@ main{
 	align-items: center;
 	flex-flow: wrap row;
 	color: #BDBDBD;
+	padding: 0 20px;
 
 
 }
@@ -106,7 +107,7 @@ article h2{
 #mision article  img{
 	margin-top: 50px;
 	
-	max-width: 350px;
+	max-width: 330px;
 	min-width: 100px;
 	border-radius: 50%;
 	border:3px solid white;
